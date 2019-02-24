@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.any? do |word|
-     word = cheese_types 
+     word = cheese_types
      return word
    end
 
